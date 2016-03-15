@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){function n(){var n=$(".floating-labels .signup-label").next();n.each(function(){var n=$(this);a(n),n.on("change keyup",function(){a(n)})})}function a(n){""==n.val()?n.prev(".signup-label").removeClass("float"):n.prev(".signup-label").addClass("float")}$(".floating-labels").length>0&&n()});
